@@ -9,7 +9,7 @@ I am a passionate software developer with experience in developing innovative so
 ## Website Overview
 
 ### Landing Page (Introduction)
-The first page you’ll see is a brief introduction about me. This page highlights my professional background, skills, and interests, giving you a snapshot of who I am.
+The first page you’ll see is a brief introduction about me. This page highlights my educational background, skills, and interests, giving you a snapshot of who I am.
 
 ### Projects & Experience Pages
 Projects Page: Explore some of the key projects I've worked on, including the technologies used and the outcomes achieved.
@@ -18,7 +18,8 @@ Both the Projects and Experience pages feature top navigation arrows, allowing y
 
 ### Navigation
 Navigate through the website using the arrows at the top of each page. You can easily switch between the Projects, Experience, and Home pages.
-###Footer
+
+### Footer
 Each page has contact information in the footer, but it’s hidden by default. To reveal it, simply hover over the main content area, and it will appear.
 
 ### Contact
