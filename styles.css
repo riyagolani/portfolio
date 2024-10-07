@@ -169,33 +169,72 @@ h1.handwritten, p.handwritten {
 }
 
 .links-container a {
-    color: #2c3e50; /* Dark text color */
+    color: #2c3e50;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em; /* Slightly larger font size */
-    position: relative; /* For pseudo-element positioning */
+    font-size: 1.1em;
+    padding: 10px;
+    position: relative;
 }
 
-.links-container a::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px; /* Line height */
-    background-color: #3498db; /* Line color */
-    transform: scaleX(0); /* Start hidden */
-    transition: transform 0.3s ease; /* Animation for line */
-    position: absolute;
-    left: 0;
-    bottom: -5px; /* Position below text */
-}
-
-.links-container a:hover::after {
-    transform: scaleX(1); /* Show line on hover */
+.links-container a i {
+    margin-left: 5px; /* Space between text and icon */
+    font-size: 0.9em;
+    transition: transform 0.3s ease;
 }
 
 .links-container a:hover {
-    color: #3498db; /* Change text color on hover */
+    color: #2980b9;
+    text-decoration: underline; /* Underline appears on hover */
 }
+
+.education {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.education-entry {
+    margin-top: 0;
+}
+
+.education-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /* Aligns h3 and span timeline on the same line */
+    margin-top: 0;
+    margin-bottom: 5px; 
+}
+
+.education-entry h3 {
+    color: #2c3e50;
+    margin-bottom: 0;
+}
+
+.education-entry p {
+    color: #606060;
+    margin-top: 5px;
+    margin-bottom: 20px; /* Reduced bottom margin for consistency */
+}
+.education-entry p a {
+    color: #606060;
+    text-decoration: none;
+}
+
+.education-entry p a:hover {
+    color: #2980b9;
+    text-decoration: underline; /* Underline appears on hover */
+}
+
+.timeline {
+    text-align: right;
+    color: #606060;
+    font-style: italic;
+    margin-bottom: 0;
+    display: flex;
+    align-items: baseline; /* Ensure it aligns properly with h3 */
+}
+
+
 
 /* Links */
 .contact-section {
